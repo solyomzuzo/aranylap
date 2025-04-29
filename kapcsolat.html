@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+  <meta charset="UTF-8">
+  <title>Kapcsolat - Aranylap Antikvárium</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="ellenorzes.js" defer></script>
+</head>
+<body>
+  
+  <div class="menu">
+    <a href="index.html">Kezdőlap</a> |
+    <a href="romantika.html">Romantika</a> |
+    <a href="scifi.html">Akció / Sci-fi / Horror</a> |
+    <a href="muszaki.html">Műszaki könyvek</a> |
+    <a href="egyeb.html">Egyéb</a> |
+	<a href="kinalat.html">Kínálat</a> |
+    <a href="kapcsolat.html">Kapcsolat</a>
+  </div>
+
+ 
+ <div class="container">
+  <h1>Lépjen kapcsolatba velünk!</h1>
+
+  <form id="kapcsolatForm">
+
+    <label for="nev">Nev:</label><br>
+    <input type="text" id="nev" name="nev" required><br><br>
+
+    <label for="email">Email:</label><br>
+    <input type="email" id="email" name="email" required><br><br>
+
+    <label for="telefon">Telefonszám:</label><br>
+    <input type="text" id="telefon" name="telefon" required><br><br>
+
+    <label for="keres">Ilyen könyvet keresek:</label><br>
+    <textarea id="keres" name="keres" required></textarea><br><br>
+
+    <label for="kinal">Ilyen könyvet kínálok:</label><br>
+    <textarea id="kinal" name="kinal" required></textarea><br><br>
+
+    <input type="submit" value="Küldés">
+  </form>
+ </div>
+
+</body>
+</html>
