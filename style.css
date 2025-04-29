@@ -12,3 +12,20 @@ body {
     background-color: rgba(255, 255, 255, 0.85);
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
+.menu {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+    .menu a {
+        color: white;
+        text-decoration: none;
+        margin: 0 10px;
+    }
+
+        .menu a:hover {
+            text-decoration: underline;
+        }
+
