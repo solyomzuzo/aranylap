@@ -71,6 +71,19 @@ textarea {
     background-color: #fffaf5;
     font-size: 1em;
 }
+input[type="submit"] {
+    background-color: #5a4632;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+    input[type="submit"]:hover {
+        background-color: #7a6148;
+    }
 
 
 
