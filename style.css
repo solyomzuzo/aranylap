@@ -175,10 +175,11 @@ form input[type="submit"] {
         background-color: #7a6148;
     }
 footer {
-  text-align: center;
-  margin-top: 3em;
-  font-size: 0.9em;
-  color: #555;
+    width: fit-content;
+    margin: 3em auto 0 auto;
+    font-size: 0.9em;
+    color: #555;
+    text-align: center;
 }
 
 
